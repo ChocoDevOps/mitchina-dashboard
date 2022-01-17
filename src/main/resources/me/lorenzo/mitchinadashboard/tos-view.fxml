@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="109.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea prefHeight="109.0" prefWidth="389.0" text="A really simple TOS (Terms of Service):&#10;- Clicking this button you will send send me messages you input&#10;- Ummmm&#10;- Nothing else&#10;&#10;I'm waiting for you on Discord ihihihi" />
+   </children>
+</AnchorPane>

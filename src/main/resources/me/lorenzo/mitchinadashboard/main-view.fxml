@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="315.0" styleClass="pane" stylesheets="@style/mainstyle.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.lorenzo.mitchinadashboard.controller.MitchinaController">
+   <children>
+      <Label fx:id="title" alignment="CENTER" layoutX="40.0" layoutY="14.0" styleClass="customText" text="Mitchina dashboard" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <JFXButton fx:id="fancyButton" layoutX="40.0" layoutY="355.0" prefHeight="25.0" prefWidth="236.0" styleClass="customButton" text="Just a fancy button, don't click" />
+      <ImageView fx:id="sadFace" fitHeight="25.0" fitWidth="29.0" layoutX="145.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/faccina_triste.png" />
+         </image>
+      </ImageView>
+      <JFXTextField id="messageField" fx:id="messageTextField" layoutX="12.0" layoutY="172.0" prefHeight="25.0" prefWidth="293.0" promptText="Send me a message" styleClass="textField" unFocusColor="#c39b9b">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton id="sendButton" fx:id="sendButton" layoutX="11.0" layoutY="216.0" prefHeight="25.0" prefWidth="293.0" styleClass="customButton" text="Clicking here you accept da tos" />
+      <Label id="tosText" fx:id="tosButton" alignment="CENTER" layoutX="131.0" layoutY="251.0" styleClass="customText" text="Da Tos" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>

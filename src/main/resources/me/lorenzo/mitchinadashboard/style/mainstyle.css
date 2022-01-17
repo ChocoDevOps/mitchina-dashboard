@@ -1,0 +1,27 @@
+.pane {
+    -fx-background-color: #4C5270;
+}
+
+.customText {
+    -fx-text-fill: #36EEE0;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.customButton {
+    -fx-background-color: #F652A0;
+    -fx-text-fill: #78cbc5;
+    -fx-font-weight: bold;
+}
+
+#messageField {
+    -fx-text-fill: #36EEE0;
+    -fx-prompt-text-fill: #36EEE0;
+}
+
+#tosText {
+    -fx-font-size: 15px;
+    -fx-underline: true;
+}
